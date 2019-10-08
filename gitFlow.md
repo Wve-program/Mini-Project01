@@ -7,6 +7,8 @@ For Example of how gitFlow workflow Diagram might look like reference the follow
 
 <img src="images/Gitflowexample.PNG"> 
 
+This image illustrates the merging of the master branch with the bugfix. The commands usedfor example are *git checkout bugfix* then *git merge master*. Master is the branch that is being merged into bugfix where as bugfix is the branch receiving the master. Knowing this difference is key to merging the correct branches. Using *git checkout* allows the individual to shift the focus of the commits. When a branch is focused with *checkout* the following commits will continue off this branch. 
+
 While the workflow diagram doesn't add additional concepts or commands it instead utilizes git commands, but it assigns roles to the different branches that are availible in the project. 
 
 Think of gitflow as a way of looking at the work of a project from a overhead point of view in detail laid before you. Whenever you make a change or merge, it will illustrate the work right before. This is a great way to indentify and coordinate with other collaborators bringing everyone on to the same page. 
