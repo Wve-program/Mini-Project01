@@ -22,4 +22,18 @@ This code allows the user to create a clone of the project directly from the res
 
    **Branch**
 
-   *Branch* 
+   *Branch* is similar to that of a branch off of a tree, in this case, it is actually created when a commit is performed and designated as the *master*. Branches continue to expand the more commits/changes are peformed to the trunk/original project. Occasionally there are two branches that maybe similar and are required to merge together. Gitflow workflow will show the merging of these files or the histories of one branch into a currently selected branch. The following commands are necessary in order to utilize branch: 
+     
+     $git branch
+     
+     Lists all Local branches in the current repository
+
+     $git branch [branch-name]
+     
+     Creates a New Branch
+
+     $git branch -d [branch-name] 
+
+     Deletes the specified branch
+
+
