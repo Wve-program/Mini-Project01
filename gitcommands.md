@@ -59,10 +59,25 @@ This command rewrites the very last commit that was made. Git will rewrite the l
    *Merge* it is a command that will combine multiple commits that were made together. *$git merge* will combine two branches together. If you have two branches that are looking to be merged the following commands are used:
 
      $git checkout master
+    
      $git merge feature
 
 The commands that are shown here state the following; Git Checkout focuses on the branch that will receive the merge while git merge feature is the branch that will be merged into the master. 
 
    **Checkout**
 
-   *Checkout*
+   *Checkout* shifts the focus to different branches in the project. When a branch is focused on using checkout it tellsGit to make all new commits on this branch. For example;
+
+     $git checkout master
+     
+As previously stated the *Master* is now focused as all commits will be recorded on this branch.
+
+     $git commit -m "Fixed: Error"
+
+The very next commit would be recorded on that branch. It may come up at some point, but you could use checkout to highlight a branch to be merge with another branch as previously identified.
+
+     $git checkout master
+
+     $git merge feature
+
+
