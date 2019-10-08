@@ -137,4 +137,15 @@ Git log will display the entire commit history. But if you want to specify chang
 
 The patter at the end of the command can be a regular expression. This command will show commits made by a particular collaborator in the repository. 
 
+   **Master Branch**
+
+   *Master Branch* like a normal branch, but this branch specifically points to the last commit that was made in the project. Everytime a commit is made the *master branch* would move forward automatically. 
+
+   [Branch Master Example](/Branch Master.png)
+
+     $git checkout master
+
+     $git commit 
+
+As you can see by the image the branch titled Master, is the *Master Branch* of the project. Using the checkout command, the master branch is focused and all forward commits are on this branch. This is distinguished by the light blue coloring of the bubbles that follow the *master branch*. 
 
