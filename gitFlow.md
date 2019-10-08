@@ -5,7 +5,7 @@ gitFlow is a Git workflow diagram/design that defines branching in a form of a d
 
 For Example of how gitFlow workflow Diagram might look like reference the following photo:
 
-<img src="images/Gitflowexample.png"> 
+<img src="images/Gitflowexample.PNG"> 
 
 While the workflow diagram doesn't add additional concepts or commands it instead utilizes git commands, but it assigns roles to the different branches that are availible in the project. 
 
