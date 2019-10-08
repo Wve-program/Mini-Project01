@@ -37,3 +37,19 @@ This code allows the user to create a clone of the project directly from the res
      Deletes the specified branch
 
 
+   **Commit**
+
+   *Commit* command is used when changes need to be saved to the local repository. More the often there might have to bechanges to the project that are required. For instance, a *Patch* for a program is essentially for fixing a bug in the software or updating a program. Commits offer the opportunity to adjust the project, make the change and then push it to the repository. The following commands are used when and individual is looking to utilize *Commit*:
+
+     $git commit -m "Fix: Issue with bolding"
+
+This command saves the changes while -m sets a message for the commit just made to reference what has happened.
+
+     $git commit -a 
+
+This command includes all the currently changed files in this commit. 
+
+     $git commit --amend
+
+This command rewrites the very last commit that was made. Git will rewrite the last commit and replace it with the newlyamended one. 
+
