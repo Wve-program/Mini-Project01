@@ -14,4 +14,12 @@ The above command is used for creating a local respository on your machine with 
 
      $ git clone https://github.com/Wve-program/Mini-Project01.git 
 
-This code allows the user to create a clone of the project directly from the respository. 
+This code allows the user to create a clone of the project directly from the respository. You can sync both the locally created repository and the remote repository to transfer whatever changes that are performed on the local using commands. 
+
+   **Fork**
+
+   *Fork* is a copy of a repository that allows you to make two way changes. What this means is, is that another individual can be marked as a collaborator and work on the same project as you. Similar to cloning where they can copy the repository, but the difference here is that the person who is the Forker can only see Forks. The individual who is forked can use *pull requests* in order to contribute to the original project. On Github the individual who owns the project can't get forked themselves from the same repository. 
+
+   **Branch**
+
+   *Branch* 
