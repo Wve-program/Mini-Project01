@@ -51,5 +51,18 @@ This command includes all the currently changed files in this commit.
 
      $git commit --amend
 
-This command rewrites the very last commit that was made. Git will rewrite the last commit and replace it with the newlyamended one. 
+This command rewrites the very last commit that was made. Git will rewrite the last commit and replace it with the newly amended one. 
 
+
+   **Merge**
+
+   *Merge* it is a command that will combine multiple commits that were made together. *$git merge* will combine two branches together. If you have two branches that are looking to be merged the following commands are used:
+
+     $git checkout master
+     $git merge feature
+
+The commands that are shown here state the following; Git Checkout focuses on the branch that will receive the merge while git merge feature is the branch that will be merged into the master. 
+
+   **Checkout**
+
+   *Checkout*
