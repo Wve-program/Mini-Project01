@@ -8,7 +8,5 @@ While the workflow diagram doesn't add additional concepts or commands it instea
 Think of gitflow as a way of looking at the work of a project from a overhead point of view in detail laid before you. Whenever you make a change or merge, it will illustrate the work right before. This is a great way to indentify and coordinate with other collaborators bringing everyone on to the same page. 
 
 There are a few terms and commands everyone should know if they truly want to utilize git.
-
-**Repository**
-What is a Repository? A 
+You can find those commands and examples here:  
 
