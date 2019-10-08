@@ -121,4 +121,19 @@ This command removes the remote URL from the repository.
 
 This is the command to show all repositories that are stored. If there are more then one URLs listed when the command is initiated that is because there are several collaborators that are working on the same repository. This is a good way to see who pushed and fetched as well because the command will distinguish that information as well. 
 
+   **Status**
+   *status* command displays the current state of the working directory and the staging area for commits. It highlights which changes have been staged and which haven't been and which files aren't being tracked by Git. Git status will not show everything though, if the user is looking for a specific change in the history, git log would allow the user to search for specific changes. Here are some command examples:
+
+     $git status 
+
+This will display all the files that are staged, unstage, and untracked; however, there maybe a time in which a specific change needs to be found. 
+
+     $git log 
+
+Git log will display the entire commit history. But if you want to specify changes from an author the following command can do this.
+
+     $git log --author="<pattern>
+
+The patter at the end of the command can be a regular expression. This command will show commits made by a particular collaborator in the repository. 
+
 
