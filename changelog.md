@@ -8,11 +8,12 @@
 
 - Deleted duplicate of changelog file. 
 
-##Change History - William
--Creation of Images Directory
+## Change History - William
 
--Added gitcommands and gitFlow files
+- Creation of Images Directory
 
--Fixed Images within GitFlow and gitCommand files
+- Added gitcommands and gitFlow files
 
--Added Command examples to definitions in GitCommands
+- Fixed Images within GitFlow and gitCommand files
+
+- Added Command examples to definitions in GitCommands
