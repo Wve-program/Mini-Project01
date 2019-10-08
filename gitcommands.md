@@ -93,4 +93,16 @@ The very next commit would be recorded on that branch. It may come up at some po
 
 Using Git Push Origin Master it allows me to send my commit to the original master branch in my remote repository. As I stated before *Push* is one side of a coin, *pull* command does the opposite.
 
+   **Pull**
+
+   *Pull* is the other side of the coin of Push/Pull, instead of pushing an update to the remote repository from a local repository, *pull* fetches the changes that are on the remote repository and updates the local repository with them. It also merges these commits that are pulled into the local branch. Here are a few examples of how Git *pull* works:
+
+     $git pull 
+
+By itself, Git *Pull* will download and incorporate all the changes.
+
+     $git pull origin master
+
+*Pull* can be put together with remote repository name and the branch name you specifically would want on your local repository.
+
 
