@@ -141,7 +141,7 @@ The patter at the end of the command can be a regular expression. This command w
 
    *Master Branch* like a normal branch, but this branch specifically points to the last commit that was made in the project. Everytime a commit is made the *master branch* would move forward automatically. 
 
-   [Branch Master Example](/Branch Master.png)
+   ![Branch Master Example](/Branch Master.png)
 
      $git checkout master
 
