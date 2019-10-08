@@ -1,4 +1,4 @@
-    Git Commands and Terminology 
+ ** Git Commands and Terminology ** 
 
    **Repository**
 
