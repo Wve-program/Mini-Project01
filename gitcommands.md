@@ -81,3 +81,16 @@ The very next commit would be recorded on that branch. It may come up at some po
      $git merge feature
 
 
+   **Push**
+
+   *Push* is one side of a coin in terms of commands. What pushing allows the user todo is sending a commit that was made to on the local repository to the remote repository. Once I initialized my local repository on my desktop and linked it to my GitHub repository I used the following commands to send my commits to Github:
+
+     $git add gitcommands.md
+     
+     $git commit -m "Fixed: Error"
+
+     $git push origin master
+
+Using Git Push Origin Master it allows me to send my commit to the original master branch in my remote repository. As I stated before *Push* is one side of a coin, *pull* command does the opposite.
+
+
