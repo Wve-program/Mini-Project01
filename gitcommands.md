@@ -105,4 +105,20 @@ By itself, Git *Pull* will download and incorporate all the changes.
 
 *Pull* can be put together with remote repository name and the branch name you specifically would want on your local repository.
 
+   **Remote**
+
+   *Remote* commands allows the individual to modify remote repositories. Same as if it was locally, but adding remote to it allows Git to send the changes to the remote repository. If a file was going to be created on a *remote* repository using the *add* addition to the command line will create the file in the repository. 
+
+     $git remote add <name> <url> 
+
+This is the command to create a new origin at the designated URL, once that is established you can push out commits without having to type out the URL. In the location of <Name> in the command, made mine *Origin* so when I push a commit it will go to the origin rather then having to type out the URL. 
+
+     $git remote rm origin
+
+This command removes the remote URL from the repository. 
+
+     $git remote -v 
+
+This is the command to show all repositories that are stored. If there are more then one URLs listed when the command is initiated that is because there are several collaborators that are working on the same repository. This is a good way to see who pushed and fetched as well because the command will distinguish that information as well. 
+
 
