@@ -7,3 +7,12 @@
 - Created vi definitions file. 
 
 - Deleted duplicate of changelog file. 
+
+##Change History - William
+-Creation of Images Directory
+
+-Added gitcommands and gitFlow files
+
+-Fixed Images within GitFlow and gitCommand files
+
+-Added Command examples to definitions in GitCommands
