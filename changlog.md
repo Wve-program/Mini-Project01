@@ -6,3 +6,4 @@
 - Created Second Branch and cloned environment for editing locally on a Mac. 
 - Created vi definitions file. 
 
+- Deleted duplicate of changelog file. 
