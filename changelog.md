@@ -2,10 +2,10 @@
 
 ## Change History - Brandon
 - Initial creation of Changelog file. 
-
+- Created Linux Commands File
 - Created Second Branch and cloned environment for editing locally on a Mac. 
 - Created vi definitions file. 
-
+- Edited Formatting of Linux Commands File
 - Deleted duplicate of changelog file. 
 
 ## Change History - William
