@@ -1,7 +1,6 @@
 **Mini-Project 02 Definitions and Examples**
 
-
-	*How Python uses Indentation to control Flow*
+*How Python uses Indentation to control Flow*
 	
 Python uses Identation to control the flow of your code. What this does to the code is that it affects the
 order in which the program that is being build is executed. 
