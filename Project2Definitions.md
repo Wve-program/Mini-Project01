@@ -6,7 +6,12 @@
 	Python uses Identation to control the flow of your code. What this does to the code is that it affects the
 order in which the program that is being build is executed. 
 
-     
+     For example:
+	 
+	 def addition(a, b):
+			return float(a) + float(b)
+			
+			
 
 
 
