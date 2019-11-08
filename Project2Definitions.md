@@ -10,11 +10,15 @@ order in which the program that is being build is executed.
 	 def addition(a, b):
 	     return float(a) + float(b)
 			
+This code example shows the definition of addition returning the basic function of A + B in the following line.
+Indenting the code creates blocks, this is how Python programs gain a structure. Each indentation is a block and
+a different place when the code is executed.  
 			
 
 
+*Don't Repeat Yourself*
 
-Don't Repeat Yourself
+Also known as *DRY* don't repeat yourself is a principle in software development that looks into reducing repetition in coding. 
 
 
 
