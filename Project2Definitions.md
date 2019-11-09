@@ -35,8 +35,8 @@ reinforces a neat code.
 	 subjects = [[1, 1, 10],
 		    [2, 11, 20],
 		    [3, 21, 30],
-	           [4, 31, 40],
-	           [5, 41, 50]]
+	            [4, 31, 40],
+	            [5, 41, 50]]
 				 
 Instead of having to list a subject for each data set, They could be grouped together and form one group of subjects that are separated
 by saying subjects first then establishing which is which in the bracket.
