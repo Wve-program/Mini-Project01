@@ -139,15 +139,30 @@ Since X isn't defined in this code, the code will throw an exception.
 The unit test is the first phase of testing when testing software. The Unittests start on the smallest testable parts of the software are tested.
 The reason behind this form of testing is to validate each unit of the software making sure it is performing as designed.
 
+     class TestMyFunction(unittest.TestCase):
+	       Def testMultiply(self):
+		   a = 5
+		   b = 5
+		   expected = 25
+		   actual = myfunctions.multiply(a, b)
+		   self.assertEqual(expected,actual,"failed test for 5x5")
+		   
+This example is a basic test for a multiplication function. 
 
 
 **Constructor**
+Constructors are used for instantiating the object. The task of the constructor is to initalize assigned values to the data members of the class
+when an object is created. In Python specifically the__init__() method is called the constructor and is always called when an object is created. 
 
+     def __init__(self)
+	 
+	 Example of a python constructor.
 
 
 **Factory**
 
-
+The Factory method is a creational design pattern made by the four authors that provides an interface for creating objects in a superclass, but allows 
+the subclasses to alter the type of objects that will be created.
 
 **Decorator**
 
