@@ -186,7 +186,28 @@ A good example of a decorator is as follows:
 
 **Extend Class**
 
-The reason for extending a class allows the extended class to inherit its properties of the original class. 
+The reason for extending a class allows the extended class to inherit its properties of the original class. If I extend a class, I can make it have a more specialized behavior. 
+Another benefit by extending a class overrides the methods by using keywords in the method definition. 
+A good example of how a class is extended is the following:
+
+     public virtual class Marker {
+		public virtual void write() {
+			system.debug('Here is this text.');
+		}
+		
+		public virtual Double discount() {
+			return .05;
+			
+		}
+	}
+	
+	 public class YellowMarker extends Marker {
+		public override void write() {
+			System.debug('This text should show up in yellow.');
+		}
+	}
+	
+The above is a demonstration on how a class is extended. 
 
 **CSV Files**
 
