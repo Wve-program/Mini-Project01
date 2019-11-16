@@ -211,6 +211,20 @@ The above is a demonstration on how a class is extended.
 
 **CSV Files**
 
+The acronym CSV stands for Comma Separated Value file that is usually in a plain text that contains data. A CSV file can be created through microsoft excel.
+The CSV file is separated by commas. The purpose of these files is when it is necessary to transfer data between two applications. 
+For instance between two EHRs (Electronic Health Records). Here is an example on how a CSV might look like;
 
+     JDS110,11-09-2001,John,Dylan,Smith,
+	 
+All the data is separate by commmas, but when you load this in excel it will appear in cells.
 
 **Reading Files**
+
+Reading files in Python 3 is similar to just normally opening files, but the key difference is putting the code in to read the file. A reason why you might need to
+read a file is for a CSV to read the data. 
+
+     hours_file open(path,'r')
+	 
+	 'r' is for reading the file while similarly 'w' is for writing in the file.
+	 
