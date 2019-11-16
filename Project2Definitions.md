@@ -186,7 +186,7 @@ A good example of a decorator is as follows:
 
 **Extend Class**
 
-The 
+The reason for extending a class allows the extended class to inherit its properties of the original class. 
 
 **CSV Files**
 
