@@ -166,11 +166,27 @@ the subclasses to alter the type of objects that will be created.
 
 **Decorator**
 
+A decorator in Python is any obkect that is callable in python that is used to modify a class or a function. When referencing a function or classs it is passed 
+to a decorator and the decorator returns a modified function or class. The Modified functions or classes usually contain calls to the original function or class.
+A good example of a decorator is as follows:
 
+     def my_decorator(func):
+		 def wrapper():
+		     print("What is this.")
+		     func()
+		     print("What is that.")
+		 return wrapper
+		 
+	 def say_what():
+         print("What?")
+
+     say_what = my_decorator(say_what)
+
+	 
 
 **Extend Class**
 
-
+The 
 
 **CSV Files**
 
